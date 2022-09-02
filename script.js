@@ -4,7 +4,7 @@ function fonctionAnagram(mot1, mot2) {
         return false;
     }
 
-
+    //ici ca va Triez les deux chaînes tout en divisant la chaine en lettre qui la compose
     var s1 = mot1.split('').sort().join('');
     var s2 = mot2.split('').sort().join('');
     //ici ca va verrifier les deux chaînes triées(s1 et s2).
